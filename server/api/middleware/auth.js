@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.authMiddleware=void 0;const authMiddleware=(e,r,t)=>{const d=e.headers["x-user-id"];const s=e.headers["x-user-name"];if(!d){return r.status(401).json({error:"Authentication required"})}e.user={id:d,name:s||"Unknown User"};t()};exports.authMiddleware=authMiddleware;

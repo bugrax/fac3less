@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.VideoService=void 0;class VideoService{config;name;constructor(e,i){this.name=e;this.config=i}}exports.VideoService=VideoService;
