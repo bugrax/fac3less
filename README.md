@@ -85,12 +85,46 @@ brew install ffmpeg
 
 ### Step 3: Download and Setup Fac3less
 
-1. Download this project:
-   - Click the green "Code" button on this page
-   - Click "Download ZIP"
-   - Extract the ZIP file to your Desktop
+**Option A: Using Git (Recommended)**
 
-2. Navigate to the project folder:
+1. In Terminal/Command Prompt, navigate to your Desktop:
+   
+   **Mac:**
+   ```
+   cd ~/Desktop
+   ```
+   
+   **Windows:**
+   ```
+   cd %USERPROFILE%\Desktop
+   ```
+
+2. Clone (download) this project by copying and pasting this command:
+   ```
+   git clone https://github.com/KenKaiii/fac3less_ken.git
+   ```
+   Press Enter and wait for it to download.
+
+3. Navigate into the project folder:
+   
+   **Mac:**
+   ```
+   cd fac3less_ken
+   ```
+   
+   **Windows:**
+   ```
+   cd fac3less_ken
+   ```
+
+**Option B: Download ZIP (If Git doesn't work)**
+
+1. Go to https://github.com/KenKaiii/fac3less_ken
+2. Click the green "Code" button
+3. Click "Download ZIP"
+4. Extract the ZIP file to your Desktop
+5. The folder will be named `fac3less_ken-main`
+6. Navigate to it:
    
    **Mac:**
    ```
@@ -102,7 +136,7 @@ brew install ffmpeg
    cd %USERPROFILE%\Desktop\fac3less_ken-main
    ```
 
-3. Install the project:
+4. Install the project:
    ```
    npm install --production
    ```
