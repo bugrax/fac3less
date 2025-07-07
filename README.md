@@ -122,17 +122,10 @@ brew install ffmpeg
 
 2. Copy and paste this into the file:
    ```
-   # Server Configuration
-   PORT=3009
-   NODE_ENV=production
-
    # API Keys - REPLACE WITH YOUR ACTUAL KEYS
    OPENROUTER_API_KEY=your_openrouter_key_here
    REPLICATE_API_TOKEN=your_replicate_token_here
 
-   # Optional - Advanced Settings
-   # OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
-   # REPLICATE_BASE_URL=https://api.replicate.com/v1
    ```
 
 3. Replace the API keys:
