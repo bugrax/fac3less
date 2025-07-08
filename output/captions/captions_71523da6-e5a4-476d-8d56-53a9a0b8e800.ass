@@ -1,0 +1,23 @@
+[Script Info]
+Title: Generated Captions
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Archivo Black,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,-11,0,1,6,3,5,30,30,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.94,Default,,0,0,0,,They don't want you to
+Dialogue: 0,0:00:00.94,0:00:01.88,Default,,0,0,0,,know your smart TV
+Dialogue: 0,0:00:01.88,0:00:02.83,Default,,0,0,0,,records everything you
+Dialogue: 0,0:00:02.83,0:00:03.77,Default,,0,0,0,,say.
+Dialogue: 0,0:00:03.77,0:00:04.96,Default,,0,0,0,,Your phone listens even
+Dialogue: 0,0:00:04.96,0:00:06.15,Default,,0,0,0,,when off. The microphone
+Dialogue: 0,0:00:06.15,0:00:07.34,Default,,0,0,0,,never truly stops
+Dialogue: 0,0:00:07.34,0:00:08.53,Default,,0,0,0,,recording.
+Dialogue: 0,0:00:08.53,0:00:10.00,Default,,0,0,0,,Every smart device builds
+Dialogue: 0,0:00:10.00,0:00:11.48,Default,,0,0,0,,a profile of you. Now you
+Dialogue: 0,0:00:11.48,0:00:12.96,Default,,0,0,0,,know the truth.
