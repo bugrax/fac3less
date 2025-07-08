@@ -1,4 +1,9 @@
-# Fac3less Video Generator - Setup Guide
+```
+░█▀▀░█▀█░█▀▀░▀▀█░█░░░█▀▀░█▀▀░█▀▀
+░█▀▀░█▀█░█░░░░▀▄░█░░░█▀▀░▀▀█░▀▀█
+░▀░░░▀░▀░▀▀▀░▀▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀
+```
+By Ken Kai does AI
 
 This is an automated faceless video generation system. Follow these steps EXACTLY to get it running on your computer.
 
