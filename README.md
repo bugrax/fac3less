@@ -2,8 +2,8 @@
 ░█▀▀░█▀█░█▀▀░▀▀█░█░░░█▀▀░█▀▀░█▀▀
 ░█▀▀░█▀█░█░░░░▀▄░█░░░█▀▀░▀▀█░▀▀█
 ░▀░░░▀░▀░▀▀▀░▀▀░░▀▀▀░▀▀▀░▀▀▀░▀▀▀
-```
 By Ken Kai does AI
+```
 
 **An AI-powered automated video creation tool that generates complete faceless videos from just a simple idea.**
 
