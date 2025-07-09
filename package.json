@@ -1,6 +1,6 @@
 {
-  "name": "video-gen",
-  "version": "0.1.0",
+  "name": "fac3less-kenkai",
+  "version": "1.2",
   "description": "Automated faceless video generation system",
   "main": "server/index.js",
   "engines": {
