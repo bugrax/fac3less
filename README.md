@@ -33,7 +33,7 @@ Before you start, make sure you have:
 - **API Keys** from these services (with billing enabled):
   - [OpenRouter](https://openrouter.ai/keys) - For AI script writing
   - [Replicate](https://replicate.com/account/api-tokens) - For AI images and video
-  - [OpenAI](https://platform.openai.com/api-keys)
+  - [OpenAI](https://platform.openai.com/api-keys) - For using Whisper
 
 ---
 
