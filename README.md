@@ -113,7 +113,7 @@ cd fac3less_ken
 ### Step 4: Install Dependencies
 
 ```bash
-npm install --production
+npm install
 ```
 
 ### Step 5: Setup API Keys
@@ -133,11 +133,13 @@ npm install --production
    # API Keys - REPLACE WITH YOUR ACTUAL KEYS
    OPENROUTER_API_KEY=your_openrouter_key_here
    REPLICATE_API_TOKEN=your_replicate_token_here
+   OPENAI_API_KEY=your_openai_key_here
    ```
 
 3. **Get your keys:**
    - OpenRouter: Sign up at [openrouter.ai/keys](https://openrouter.ai/keys)
    - Replicate: Sign up at [replicate.com/account/api-tokens](https://replicate.com/account/api-tokens)
+   - OpenAI: Sign up at [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 
 4. **Save the file** (`Cmd + S` on Mac, `Ctrl + S` on Windows)
 
