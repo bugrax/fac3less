@@ -36,21 +36,21 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.openRouterConfig = void 0;
 const dotenv = __importStar(require("dotenv"));
 // Ensure environment variables are loaded
-dotenv.config();
+dotenv.config({ quiet: true });
 exports.openRouterConfig = {
     get apiKey() {
         return process.env.OPENROUTER_API_KEY;
     },
     get defaultModel() {
-        return process.env.OPENROUTER_MODEL || 'moonshotai/kimi-k2';
+        return process.env.OPENROUTER_MODEL || "moonshotai/kimi-k2";
     },
-    baseUrl: 'https://openrouter.ai/api/v1',
+    baseUrl: "https://openrouter.ai/api/v1",
     timeout: 30000,
     maxRetries: 3,
     // Available models
     models: {
-        scriptGeneration: 'moonshotai/kimi-k2',
-        imagePrompts: 'anthropic/claude-sonnet-4',
-        general: 'moonshotai/kimi-k2'
-    }
+        scriptGeneration: "moonshotai/kimi-k2",
+        imagePrompts: "anthropic/claude-sonnet-4",
+        general: "moonshotai/kimi-k2",
+    },
 };

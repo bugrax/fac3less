@@ -36,32 +36,32 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.replicateConfig = void 0;
 const dotenv = __importStar(require("dotenv"));
 // Ensure environment variables are loaded
-dotenv.config();
+dotenv.config({ quiet: true });
 exports.replicateConfig = {
     get apiToken() {
         return process.env.REPLICATE_API_TOKEN;
     },
     get defaultModel() {
-        return process.env.REPLICATE_VIDEO_MODEL || 'kwaivgi/kling-v2.1';
+        return process.env.REPLICATE_VIDEO_MODEL || "kwaivgi/kling-v2.1";
     },
     timeout: 600000, // 10 minutes for video generation
     maxRetries: 2,
     // Available models with their configurations
     models: {
-        'kwaivgi/kling-v2.1': {
-            name: 'Kling v2.1',
+        "kwaivgi/kling-v2.1": {
+            name: "Kling v2.1",
             supportsTextToVideo: true,
             supportsImageToVideo: true,
-            defaultMode: 'standard',
-            maxDuration: 10
+            defaultMode: "standard",
+            maxDuration: 10,
         },
-        'bytedance/seedance-1-pro': {
-            name: 'Seedance Pro',
+        "bytedance/seedance-1-pro": {
+            name: "Seedance Pro",
             supportsTextToVideo: false,
             supportsImageToVideo: true,
-            defaultResolution: '1080p',
-            defaultAspectRatio: '9:16',
-            maxDuration: 10
-        }
-    }
+            defaultResolution: "1080p",
+            defaultAspectRatio: "9:16",
+            maxDuration: 10,
+        },
+    },
 };
