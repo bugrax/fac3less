@@ -78,7 +78,7 @@ brew install ffmpeg
 
 **On Windows:**
 1. Download from [gyan.dev/ffmpeg/builds](https://www.gyan.dev/ffmpeg/builds/)
-2. Click "release builds" → Download `ffmpeg-release-essentials.zip`
+2. Click "release builds" → Download `ffmpeg-git-full.7z`
 3. Extract to `C:\ffmpeg`
 4. Add to PATH:
    - Right-click "This PC" → Properties
