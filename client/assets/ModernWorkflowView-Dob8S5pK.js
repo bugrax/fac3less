@@ -3452,8 +3452,8 @@ const ze = M.memo(() =>
   e.jsx('div', {
     style: { position: 'absolute', top: '-10px', left: '20px', zIndex: 1e3 },
     children: e.jsx('img', {
-      src: '/fac3less.svg',
-      alt: 'Fac3less Logo',
+      src: '/logo.svg',
+      alt: 'Automator Logo',
       style: {
         width: '250px',
         height: '100px',

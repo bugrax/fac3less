@@ -12392,8 +12392,8 @@ const Us = zs(Os),
         children: [
           at.jsx('style', { children: qs }),
           at.jsx('img', {
-            src: '/fac3less.svg',
-            alt: 'Faceless',
+            src: '/logo.svg',
+            alt: 'Automator',
             className: 'logo-slam',
             style: { width: '600px', height: 'auto' }
           })
